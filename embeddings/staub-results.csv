@@ -1,0 +1,97 @@
+,id,sent_type,sentence,surprisal,entropy_all,type
+0,1,ORC,"Yestreday, the bus driver who the kids followed wondered about the location of a hotel.",10.9725,1.7837,rcv
+1,1,SRC,"Yesterday at noon, the bus driver who followed the kids wondered about the location of a hotel.",9.578,1.5796,rcv
+2,2,ORC,"Yestreday, the chef who the cameraman distracted poured the flour onto the counter.",17.2238,1.7535,rcv
+3,2,SRC,"Yesterday at noon, the chef who distracted the cameraman poured the flour onto the counter.",18.5266,1.4309,rcv
+4,3,ORC,"Yestreday, the children who the father woke bothered him about the trip to the beach.",13.6998,1.6219,rcv
+5,3,SRC,"Yesterday at noon, the children who woke the father bothered him about the trip to the beach.",9.9398,1.4087,rcv
+6,4,ORC,"Yestreday, the class that the teacher disliked skimmed the reading for the week.",12.7106,1.7277,rcv
+7,4,SRC,"Yesterday at noon, the class that disliked the teacher skimmed the reading for the week.",17.1271,1.3902,rcv
+8,5,ORC,"Yestreday, the dancer that the audience loved ignored some basic principles.",4.9302,1.7174,rcv
+9,5,SRC,"Yesterday at noon, the dancer that loved the audience ignored some basic principles.",10.718,1.3725,rcv
+10,6,ORC,"Yestreday, the employees that the fireman noticed hurried across the open field.",10.3988,1.8167,rcv
+11,6,SRC,"Yesterday at noon, the employees that noticed the fireman hurried across the open field.",12.909,1.4564,rcv
+12,7,ORC,"Yestreday, the farmer that the customers approached lifted the chickens from their coop.",9.9405,1.7123,rcv
+13,7,SRC,"Yesterday at noon, the farmer that approached the customers lifted the chickens from their coop.",10.7187,1.5305,rcv
+14,8,ORC,"Yestreday, the farmer who the rancher hired piled the seeds in long rows.",7.047,1.7877,rcv
+15,8,SRC,"Yesterday at noon, the farmer who hired the rancher piled the seeds in long rows.",9.8708,1.4249,rcv
+16,9,ORC,"Yestreday, the firemen that the residents called attacked the house with high-powered hoses.",6.6851,1.7878,rcv
+17,9,SRC,"Yesterday at noon, the firemen that called the residents attacked the house with high-powered hoses.",9.6818,1.5043,rcv
+18,10,ORC,"Yestreday, the girl who the parents watched changed a critical part of the story.",9.4276,1.6825,rcv
+19,10,SRC,"Yesterday at noon, the girl who watched the parents changed a critical part of the story.",10.1415,1.4894,rcv
+20,11,ORC,"Yestreday, the investigator who the agency called considered Ms. Reynolds from accounting.",6.7003,1.6726,rcv
+21,11,SRC,"Yesterday at noon, the investigator who called the agency considered Ms. Reynolds from accounting.",8.1623,1.4385,rcv
+22,12,ORC,"Yestreday, the judge who the witnesses addressed noticed the defense attorneys.",13.7278,1.6803,rcv
+23,12,SRC,"Yesterday at noon, the judge who addressed the witnesses noticed the defense attorneys.",10.491,1.4639,rcv
+24,13,ORC,"Yestreday, the manager who the boss visited remembered some inconvenient facts.",9.288,1.6852,rcv
+25,13,SRC,"Yesterday at noon, the manager who visited the boss  remembered some inconvenient facts.",10.9652,1.5188,rcv
+26,14,ORC,"Yestreday, the mathematician who the chairman visited created a solution to the well-known problem.",14.1509,1.7114,rcv
+27,14,SRC,"Yesterday at noon, the mathematician who visited the chairman created a solution to the well-known problem.",12.9764,1.5227,rcv
+28,15,ORC,"Yestreday, the monkeys that the zookeepers watched charged the bars of their cage.",7.1776,1.9204,rcv
+29,15,SRC,"Yesterday at noon, the monkeys that watched the zookeepers charged the bars of their cage.",8.366,1.5707,rcv
+30,16,ORC,"Yestreday, the movie star who the organizers visited proposed an annual prize.",13.0329,1.7326,rcv
+31,16,SRC,"Yesterday at noon, the movie star who visited the organizers proposed an annual prize.",11.5742,1.5505,rcv
+32,17,ORC,"Yestreday, the neighbor who the couple observed purchased the old Victorian house.",12.8366,1.6876,rcv
+33,17,SRC,"Yesterday at noon, the neighbor who observed the couple purchased the old Victorian house.",9.1516,1.4675,rcv
+34,18,ORC,"Yestreday, the pilot who the ground crew delayed remained on the runway for a long time.",14.6264,1.8038,rcv
+35,18,SRC,"Yesterday at noon, the pilot who delayed the ground crew remained on the runway for a long time.",13.6566,1.4808,rcv
+36,19,ORC,"Yestreday, the soldiers that the natives helped climbed the big rock that blocked the path.",11.1128,1.7457,rcv
+37,19,SRC,"Yesterday at noon, the soldiers that helped the natives climbed the big rock that blocked the path.",8.4727,1.4382,rcv
+38,20,ORC,"Yestreday, the speaker who the economists entertained predicted a good year for the industry.",16.4075,1.7124,rcv
+39,20,SRC,"Yesterday at noon, the speaker who entertained the economists predicted a good year for the industry.",14.3581,1.4669,rcv
+40,21,ORC,"Yestreday, the table top that the box rested on screwed directly to the legs.",12.0264,1.7097,rcv
+41,21,SRC,"Yesterday at noon, the table top that rested on the box screwed directly to the legs.",11.5468,1.4669,rcv
+42,22,ORC,"Yestreday, the trainer who the jockey called rubbed the horse’s skin.",5.4529,1.7939,rcv
+43,22,SRC,"Yesterday at noon, the trainer who called the jockey rubbed the horse’s skin.",7.6916,1.453,rcv
+44,23,ORC,"Yestreday, the veteran who the coach admired defeated his greatest rival.",12.0014,1.6364,rcv
+45,23,SRC,"Yesterday at noon, the veteran who admired the coach defeated his greatest rival.",16.1399,1.3606,rcv
+46,24,ORC,"Yestreday, the visitor who the student introduced walked across the quad.",11.3069,1.686,rcv
+47,24,SRC,"Yesterday at noon, the visitor who introduced the student walked across the quad.",10.3067,1.4181,rcv
+48,1,ORC,"Yesterday at noon,the bus driver who the kids followed wondered about the location of a hotel.",10.7306,1.6073,rcn
+49,1,SRC,"Yesterday, the bus driver who followed the kids wondered about the location of a hotel.",1.2198,1.5597,rcn
+50,2,ORC,"Yesterday at noon,the chef who the cameraman distracted poured the flour onto the counter.",11.2528,1.4871,rcn
+51,2,SRC,"Yesterday, the chef who distracted the cameraman poured the flour onto the counter.",2.2911,1.4134,rcn
+52,3,ORC,"Yesterday at noon,the children who the father woke bothered him about the trip to the beach.",10.7553,1.4887,rcn
+53,3,SRC,"Yesterday, the children who woke the father bothered him about the trip to the beach.",6.6212,1.4155,rcn
+54,4,ORC,"Yesterday at noon,the class that the teacher disliked skimmed the reading for the week.",6.1944,1.5385,rcn
+55,4,SRC,"Yesterday, the class that disliked the teacher skimmed the reading for the week.",2.9812,1.419,rcn
+56,5,ORC,"Yesterday at noon,the dancer that the audience loved ignored some basic principles.",7.2424,1.5633,rcn
+57,5,SRC,"Yesterday, the dancer that loved the audience ignored some basic principles.",3.9094,1.4095,rcn
+58,6,ORC,"Yesterday at noon,the employees that the fireman noticed hurried across the open field.",7.6296,1.5257,rcn
+59,6,SRC,"Yesterday, the employees that noticed the fireman hurried across the open field.",1.1816,1.437,rcn
+60,7,ORC,"Yesterday at noon,the farmer that the customers approached lifted the chickens from their coop.",6.8518,1.5682,rcn
+61,7,SRC,"Yesterday, the farmer that approached the customers lifted the chickens from their coop.",2.8346,1.4524,rcn
+62,8,ORC,"Yesterday at noon,the farmer who the rancher hired piled the seeds in long rows.",10.7421,1.5135,rcn
+63,8,SRC,"Yesterday, the farmer who hired the rancher piled the seeds in long rows.",2.0327,1.4311,rcn
+64,9,ORC,"Yesterday at noon,the firemen that the residents called attacked the house with high-powered hoses.",7.8926,1.6624,rcn
+65,9,SRC,"Yesterday, the firemen that called the residents attacked the house with high-powered hoses.",2.6464,1.5387,rcn
+66,10,ORC,"Yesterday at noon,the girl who the parents watched changed a critical part of the story.",9.8658,1.4881,rcn
+67,10,SRC,"Yesterday, the girl who watched the parents changed a critical part of the story.",1.4633,1.4385,rcn
+68,11,ORC,"Yesterday at noon,the investigator who the agency phoned considered Ms. Reynolds from accounting.",10.5432,1.4925,rcn
+69,11,SRC,"Yesterday, the investigator who phoned the agency considered Ms. Reynolds from accounting.",1.7425,1.5217,rcn
+70,12,ORC,"Yesterday at noon,the judge who the witnesses addressed noticed the defense attorneys.",11.2823,1.4579,rcn
+71,12,SRC,"Yesterday, the judge who addressed the witnesses noticed the defense attorneys.",0.4896,1.4207,rcn
+72,13,ORC,"Yesterday at noon,the manager who the boss visited remembered some inconvenient facts.",10.5411,1.4884,rcn
+73,13,SRC,"Yesterday, the manager who visited the boss  remembered some inconvenient facts.",1.9432,1.422,rcn
+74,14,ORC,"Yesterday at noon,the mathematician who the chairman visited created a solution to the well-known problem.",11.2911,1.4859,rcn
+75,14,SRC,"Yesterday, the mathematician who visited the chairman created a solution to the well-known problem.",1.9425,1.465,rcn
+76,15,ORC,"Yesterday at noon,the monkeys that the zookeepers watched charged the bars of their cage.",6.6197,1.5827,rcn
+77,15,SRC,"Yesterday, the monkeys that watched the zookeepers charged the bars of their cage.",1.8687,1.5316,rcn
+78,16,ORC,"Yesterday at noon,the movie star who the organizers visited proposed an annual prize.",11.1779,1.562,rcn
+79,16,SRC,"Yesterday, the movie star who visited the organizers proposed an annual prize.",2.1017,1.511,rcn
+80,17,ORC,"Yesterday at noon,the neighbor who the couple observed purchased the old Victorian house.",10.5904,1.4893,rcn
+81,17,SRC,"Yesterday, the neighbor who observed the couple purchased the old Victorian house.",0.661,1.4432,rcn
+82,18,ORC,"Yesterday at noon,the pilot who the ground crew delayed remained on the runway for a long time.",10.9916,1.4865,rcn
+83,18,SRC,"Yesterday, the pilot who delayed the ground crew remained on the runway for a long time.",1.4215,1.461,rcn
+84,19,ORC,"Yesterday at noon,the soldiers that the natives helped climbed the big rock that blocked the path.",7.0552,1.5164,rcn
+85,19,SRC,"Yesterday, the soldiers that helped the natives climbed the big rock that blocked the path.",3.8019,1.4682,rcn
+86,20,ORC,"Yesterday at noon,the speaker who the economists entertained predicted a good year for the industry.",9.7829,1.4857,rcn
+87,20,SRC,"Yesterday, the speaker who entertained the economists predicted a good year for the industry.",1.1588,1.4448,rcn
+88,21,ORC,"Yesterday at noon,the table top that the box rested on screwed directly to the legs.",4.49,1.6354,rcn
+89,21,SRC,"Yesterday, the table top that rested on the box screwed directly to the legs.",0.9095,1.7295,rcn
+90,22,ORC,"Yesterday at noon,the trainer who the jockey called rubbed the horse’s skin.",10.3282,1.5133,rcn
+91,22,SRC,"Yesterday, the trainer who called the jockey rubbed the horse’s skin.",2.6116,1.4302,rcn
+92,23,ORC,"Yesterday at noon,the veteran who the coach admired defeated his greatest rival.",11.2906,1.44,rcn
+93,23,SRC,"Yesterday, the veteran who admired the coach defeated his greatest rival.",2.6099,1.3295,rcn
+94,24,ORC,"Yesterday at noon,the visitor who the student introduced walked across the quad.",11.2922,1.5626,rcn
+95,24,SRC,"Yesterday, the visitor who introduced the student walked across the quad.",2.5489,1.446,rcn
