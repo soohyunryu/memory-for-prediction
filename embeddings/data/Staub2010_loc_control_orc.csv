@@ -1,0 +1,49 @@
+﻿id,sentence,type,crit,target
+1,"Yesterday at noon, the bus driver who followed the kids wondered about the location of a hotel.",SR,followed,driver
+1,"Yestreday, the bus driver who the kids followed wondered about the location of a hotel.",OR,followed,driver
+2,"Yesterday at noon, the chef who distracted the cameraman poured the flour onto the counter.",SR,distracted,chef
+2,"Yestreday, the chef who the cameraman distracted poured the flour onto the counter.",OR,distracted,chef
+3,"Yesterday at noon, the children who woke the father bothered him about the trip to the beach.",SR,woke,children
+3,"Yestreday, the children who the father woke bothered him about the trip to the beach.",OR,woke,children
+4,"Yesterday at noon, the class that disliked the teacher skimmed the reading for the week.",SR,disliked,class
+4,"Yestreday, the class that the teacher disliked skimmed the reading for the week.",OR,disliked,class
+5,"Yesterday at noon, the dancer that loved the audience ignored some basic principles.",SR,loved,dancer
+5,"Yestreday, the dancer that the audience loved ignored some basic principles.",OR,loved,dancer
+6,"Yesterday at noon, the employees that noticed the fireman hurried across the open field.",SR,noticed,employees
+6,"Yestreday, the employees that the fireman noticed hurried across the open field.",OR,noticed,employees
+7,"Yesterday at noon, the farmer that approached the customers lifted the chickens from their coop.",SR,approached,farmer
+7,"Yestreday, the farmer that the customers approached lifted the chickens from their coop.",OR,approached,farmer
+8,"Yesterday at noon, the farmer who hired the rancher piled the seeds in long rows.",SR,hired,farmer
+8,"Yestreday, the farmer who the rancher hired piled the seeds in long rows.",OR,hired,farmer
+9,"Yesterday at noon, the firemen that called the residents attacked the house with high-powered hoses.",SR,called,firemen
+9,"Yestreday, the firemen that the residents called attacked the house with high-powered hoses.",OR,called,firemen
+10,"Yesterday at noon, the girl who watched the parents changed a critical part of the story.",SR,watched,girl
+10,"Yestreday, the girl who the parents watched changed a critical part of the story.",OR,watched,girl
+11,"Yesterday at noon, the investigator who called the agency considered Ms. Reynolds from accounting.",SR,called,investigator
+11,"Yestreday, the investigator who the agency called considered Ms. Reynolds from accounting.",OR,called,investigator
+12,"Yesterday at noon, the judge who addressed the witnesses noticed the defense attorneys.",SR,addressed,judge
+12,"Yestreday, the judge who the witnesses addressed noticed the defense attorneys.",OR,addressed,judge
+13,"Yesterday at noon, the manager who visited the boss  remembered some inconvenient facts.",SR,visited,manager
+13,"Yestreday, the manager who the boss visited remembered some inconvenient facts.",OR,visited,manager
+14,"Yesterday at noon, the mathematician who visited the chairman created a solution to the well-known problem.",SR,visited,mathematician
+14,"Yestreday, the mathematician who the chairman visited created a solution to the well-known problem.",OR,visited,mathematician
+15,"Yesterday at noon, the monkeys that watched the zookeepers charged the bars of their cage.",SR,watched,monkeys
+15,"Yestreday, the monkeys that the zookeepers watched charged the bars of their cage.",OR,watched,monkeys
+16,"Yesterday at noon, the movie star who visited the organizers proposed an annual prize.",SR,visited,star
+16,"Yestreday, the movie star who the organizers visited proposed an annual prize.",OR,visited,star
+17,"Yesterday at noon, the neighbor who observed the couple purchased the old Victorian house.",SR,observed,neighbor
+17,"Yestreday, the neighbor who the couple observed purchased the old Victorian house.",OR,observed,neighbor
+18,"Yesterday at noon, the pilot who delayed the ground crew remained on the runway for a long time.",SR,delayed,pilot
+18,"Yestreday, the pilot who the ground crew delayed remained on the runway for a long time.",OR,delayed,pilot
+19,"Yesterday at noon, the soldiers that helped the natives climbed the big rock that blocked the path.",SR,helped,soldiers
+19,"Yestreday, the soldiers that the natives helped climbed the big rock that blocked the path.",OR,helped,soldiers
+20,"Yesterday at noon, the speaker who entertained the economists predicted a good year for the industry.",SR,entertained,speaker
+20,"Yestreday, the speaker who the economists entertained predicted a good year for the industry.",OR,entertained,speaker
+21,"Yesterday at noon, the table top that rested on the box screwed directly to the legs.",SR,rested,top
+21,"Yestreday, the table top that the box rested on screwed directly to the legs.",OR,rested,top
+22,"Yesterday at noon, the trainer who called the jockey rubbed the horse’s skin.",SR,called,trainer
+22,"Yestreday, the trainer who the jockey called rubbed the horse’s skin.",OR,called,trainer
+23,"Yesterday at noon, the veteran who admired the coach defeated his greatest rival.",SR,admired,veteran
+23,"Yestreday, the veteran who the coach admired defeated his greatest rival.",OR,admired,veteran
+24,"Yesterday at noon, the visitor who introduced the student walked across the quad.",SR,introduced,visitor
+24,"Yestreday, the visitor who the student introduced walked across the quad.",OR,introduced,visitor
