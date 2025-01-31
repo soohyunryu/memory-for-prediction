@@ -1,5 +1,5 @@
 rm(list=ls()) 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Umich/JLM/memory-for-prediction/embeddings")
+setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Umich/JLM/memory-for-prediction/reading-times-modeling/public/embeddings")
 library(ggplot2)
 library(dplyr)
 
@@ -7,10 +7,9 @@ stat_sum_single <- function(fun, geom="point", ...) {
   stat_summary(fun=fun, colour="red", geom=geom, size = 3, ...)
 }
 
-
 ##### Relative Clause
 
-Staub <- read.csv('results/staub-results.csv', sep=',',header=TRUE)
+Staub <- read.csv('results/staub-results-new.csv', sep=',',header=TRUE)
 Staub[which(Staub$type == "rcn"),]$type = "Noun Onset"
 Staub[which(Staub$type == "rcv"),]$type = "Embedded Verb"
 
@@ -22,8 +21,17 @@ ggplot(aes(x = sent_type, y = surprisal), data = Staub) +
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
   stat_sum_single(mean) + theme(text = element_text(family="Times New Roman",size=35))
 
-# attention entropy 
-ggplot(aes(x = sent_type, y = entropy_all), data = Staub) +
+# attention entropy -syntactic
+ggplot(aes(x = sent_type, y = entropy_syntactic), data = Staub) +
+  geom_point() + xlab("") + ylab("syntactic attention entropy") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
+  theme_bw(base_size=20)  + theme(legend.position = "bottom") +
+  facet_grid(.~type) + 
+  stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
+  stat_sum_single(mean) + theme(text = element_text(family="Times New Roman",size=35))
+
+
+# attention entropy - global
+ggplot(aes(x = sent_type, y = entropy_global), data = Staub) +
   geom_point() + xlab("") + ylab("global attention entropy") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20)  + theme(legend.position = "bottom") +
   facet_grid(.~type) + 
@@ -31,10 +39,10 @@ ggplot(aes(x = sent_type, y = entropy_all), data = Staub) +
   stat_sum_single(mean) + theme(text = element_text(family="Times New Roman",size=35))
 
 
+
 ##### Center Embeddings vs. Right Branching
 
-
-Stolz <- read.csv('results/stolz-results.csv', sep=',',header=TRUE)
+Stolz <- read.csv('results/stolz-results-new.csv', sep=',',header=TRUE)
 Stolz[which(Stolz$type=="CE"),]$type = 'Center Embedding'
 Stolz[which(Stolz$type=="RB"),]$type = 'Right Branching'
 Stolz$level <-as.factor(Stolz$level)
@@ -49,9 +57,19 @@ ggplot(aes(x = level, y = surprisal), data = Stolz) +
   stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
   ylab('surprisal') + xlab('depth level')
 
+# synatctic attention entropy
+
+ggplot(aes(x = level, y = entropy_syntactic), data = Stolz) +
+  geom_point() + xlab("") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
+  theme_bw(base_size=20) + theme(legend.position = "bottom") +
+  facet_grid(.~type) + 
+  stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
+  stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
+  ylab('syntactic attention entropy') + xlab('depth level')
+
 # glabal attention entropy
 
-ggplot(aes(x = level, y = entropy_all), data = Stolz) +
+ggplot(aes(x = level, y = entropy_global), data = Stolz) +
   geom_point() + xlab("") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20) + theme(legend.position = "bottom") +
   facet_grid(.~type) + 
@@ -78,9 +96,6 @@ ggplot(aes(x = level, y = attn_to_target), data = Stolz) +
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
   stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
   ylab('attention to correct subject') + xlab('depth level')
-
-
-
 
 
 
@@ -147,6 +162,4 @@ ggplot(aes(x = x, y = y), data = lv3_df) +
   facet_grid(.~type) + 
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.3) +
   stat_sum_single(mean, colour="blue") +theme(text = element_text(family="Times New Roman",size=35))
-
-
 
