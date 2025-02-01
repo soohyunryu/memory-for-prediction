@@ -1,5 +1,5 @@
 rm(list=ls()) 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Umich/JLM/memory-for-prediction/reading-times-modeling/public/embeddings")
+
 library(ggplot2)
 library(dplyr)
 
@@ -9,7 +9,7 @@ stat_sum_single <- function(fun, geom="point", ...) {
 
 ##### Relative Clause
 
-Staub <- read.csv('results/staub-results-new.csv', sep=',',header=TRUE)
+Staub <- read.csv('results/staub-results.csv', sep=',',header=TRUE)
 Staub[which(Staub$type == "rcn"),]$type = "Noun Onset"
 Staub[which(Staub$type == "rcv"),]$type = "Embedded Verb"
 
@@ -23,12 +23,11 @@ ggplot(aes(x = sent_type, y = surprisal), data = Staub) +
 
 # attention entropy -syntactic
 ggplot(aes(x = sent_type, y = entropy_syntactic), data = Staub) +
-  geom_point() + xlab("") + ylab("syntactic attention entropy") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
+  geom_point() + xlab("") + ylab("GDAE") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20)  + theme(legend.position = "bottom") +
   facet_grid(.~type) + 
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
   stat_sum_single(mean) + theme(text = element_text(family="Times New Roman",size=35))
-
 
 # attention entropy - global
 ggplot(aes(x = sent_type, y = entropy_global), data = Staub) +
@@ -42,7 +41,7 @@ ggplot(aes(x = sent_type, y = entropy_global), data = Staub) +
 
 ##### Center Embeddings vs. Right Branching
 
-Stolz <- read.csv('results/stolz-results-new.csv', sep=',',header=TRUE)
+Stolz <- read.csv('results/stolz-results.csv', sep=',',header=TRUE)
 Stolz[which(Stolz$type=="CE"),]$type = 'Center Embedding'
 Stolz[which(Stolz$type=="RB"),]$type = 'Right Branching'
 Stolz$level <-as.factor(Stolz$level)
@@ -65,7 +64,7 @@ ggplot(aes(x = level, y = entropy_syntactic), data = Stolz) +
   facet_grid(.~type) + 
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
   stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
-  ylab('syntactic attention entropy') + xlab('depth level')
+  ylab('GDAE') + xlab('depth level')
 
 # glabal attention entropy
 
