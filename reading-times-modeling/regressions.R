@@ -92,7 +92,7 @@ GCdata_ff <- GCdata_ff %>%  mutate(crnt_surprisal_z = scale(crnt_surprisal),
                              prev_wfreq_z = scale(prev_frequency),
                              prev_wlength_z = scale(prev_w_len))
 
-GCmodel_ff <- brm( WORD_GAZE_DURATION ~ position + crnt_wlength_z + prev_wlength_z+
+GCmodel_ff <- brm( WORD_FIRST_FIXATION_DURATION ~ position + crnt_wlength_z + prev_wlength_z+
                      crnt_surprisal_z*crnt_top_syn_entropy_30_z+ 
                      crnt_wfreq_z  +
                      prev_surprisal_z*prev_top_syn_entropy_30_z+
