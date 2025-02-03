@@ -21,7 +21,7 @@ ggplot(aes(x = sent_type, y = surprisal), data = Staub) +
   stat_summary(fun.data = "mean_cl_boot", geom="errorbar", colour="red", width=0.1, size = 0.5) +
   stat_sum_single(mean) + theme(text = element_text(family="Times New Roman",size=35))
 
-# attention entropy -syntactic
+# attention entropy - aggregate
 ggplot(aes(x = sent_type, y = entropy_syntactic), data = Staub) +
   geom_point() + xlab("") + ylab("GDAE") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20)  + theme(legend.position = "bottom") +
@@ -47,7 +47,6 @@ Stolz[which(Stolz$type=="RB"),]$type = 'Right Branching'
 Stolz$level <-as.factor(Stolz$level)
 
 # surprisal
-
 ggplot(aes(x = level, y = surprisal), data = Stolz) +
   geom_point() + xlab("") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20) + theme(legend.position = "bottom") +
@@ -56,8 +55,8 @@ ggplot(aes(x = level, y = surprisal), data = Stolz) +
   stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
   ylab('surprisal') + xlab('depth level')
 
-# synatctic attention entropy
 
+# attention entropy - aggregate
 ggplot(aes(x = level, y = entropy_syntactic), data = Stolz) +
   geom_point() + xlab("") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20) + theme(legend.position = "bottom") +
@@ -66,8 +65,8 @@ ggplot(aes(x = level, y = entropy_syntactic), data = Stolz) +
   stat_sum_single(mean, colour="blue") + theme(text = element_text(family="Times New Roman",size=35))+
   ylab('GDAE') + xlab('depth level')
 
-# glabal attention entropy
 
+# attention entropy - global
 ggplot(aes(x = level, y = entropy_global), data = Stolz) +
   geom_point() + xlab("") + #Verb agreement across four levels of clausal embedding in 'it' clefts") +
   theme_bw(base_size=20) + theme(legend.position = "bottom") +
@@ -99,7 +98,6 @@ ggplot(aes(x = level, y = attn_to_target), data = Stolz) +
 
 
 # Attention to nouns from verb-level2
-
 Stolz_level2 = Stolz[which(Stolz$level==2),]
 Stolz_level2_CE = Stolz_level2[which(Stolz_level2$type=="Center Embedding"),]
 
