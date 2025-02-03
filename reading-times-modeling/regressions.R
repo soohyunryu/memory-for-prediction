@@ -27,25 +27,6 @@ priors <- c(
   set_prior("lkj(1)", class = "cor"))
 
 
-show_summary <- function(model){
-  intervals <- gather_draws(model, `b_.*`, regex=T) %>% mean_qi()
-  stats <- gather_draws(model, `b_.*`, regex=T) %>% 
-    mutate(above_0=ifelse(.value>0, 1,0)) %>% 
-    group_by(.variable) %>% 
-    summarize(pct_above_0=mean(above_0)) %>% 
-    mutate(`P` = signif(2*pmin(pct_above_0,1-pct_above_0), digits=2)) %>% 
-    left_join(intervals, by=".variable") %>% 
-    mutate(lower=round(.lower, digits=1),
-           upper=round(.upper, digits=1),
-           E=round(.value, digits=1),
-           `CI`=str_c("[",lower,", ", upper,"]"),
-           Term=str_sub(.variable, 3, -1),
-    ) %>% 
-    select(Term, `E`, `CI`,`P`)
-  stats
-}
-
-
 #### geco analysis 
 GCdata <- read_csv("geco-annotated-data.csv")
 GCdata<- drop_na(GCdata)
