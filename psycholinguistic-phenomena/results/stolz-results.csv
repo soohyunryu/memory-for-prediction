@@ -1,0 +1,91 @@
+,id,type,level,verb,sentence,target,surprisal,entropy_43,entropy_syntactic,entropy_global,attn_to_target,attn_to_lv1_noun,attn_to_lv2_noun,attn_to_lv3_noun
+0,1,CE,1,attacked,The bees that the places that the farmer built housed attacked the children. ,bees,15.057,2.05,2.2619,1.7481,0.48556,0.48556,0.2445,0.08857
+1,1,RB,1,attacked,The farmer built the places that housed the bees that attacked the children.,bees,11.7672,1.348,1.8839,1.7162,0.75352,0.75352,0.07318,0.01485
+2,1,CE,2,housed,The bees that the places that the farmer built housed attacked the children. ,places,14.7438,2.4301,2.1511,1.7452,0.41898,0.11139,0.41898,0.1479
+3,1,RB,2,housed,"Yesterday evening, the farmer built the places that housed the bees that attacked the children.",places,8.94,1.0591,1.8002,1.5987,0.80879,0.0,0.80879,0.02356
+4,1,CE,3,built,The bees that the places that the farmer built housed attacked the children. ,farmer,8.4358,1.7859,2.1062,1.7547,0.58275,0.00771,0.04807,0.58275
+5,1,RB,3,built,"After the sun went down, the farmer built the places that housed the bees that attacked the children.",farmer,11.0483,0.7894,1.6913,1.3723,0.83203,0.0,0.0,0.83203
+6,2,CE,1,broke,The glass that the maid that the agency hired dropped broke on the floor. ,glass,10.5783,0.5889,2.0347,1.5081,0.90114,0.90114,0.01758,0.00051
+7,2,RB,1,broke,The agency hired the maid who dropped the glass that broke on the floor. ,glass,5.3332,0.9343,1.9558,1.5225,0.84583,0.84583,0.05926,0.00159
+8,2,CE,2,dropped,The glass that the maid that the agency hired dropped broke on the floor. ,maid,10.8724,1.9386,2.007,1.5906,0.1685,0.56996,0.1685,0.06818
+9,2,RB,2,dropped,"Yesterday evening, the agency hired the maid who dropped the glass that broke on the floor. ",maid,12.1522,1.5669,1.7427,1.415,0.6358,0.0,0.6358,0.02173
+10,2,CE,3,hired,The glass that the maid that the agency hired dropped broke on the floor. ,agency,4.6109,1.7224,2.0037,1.614,0.47722,0.00139,0.10867,0.47722
+11,2,RB,3,hired,"After the sun went down, the agency hired the maid who dropped the glass that broke on the floor. ",agency,7.8525,1.4584,1.6568,1.3382,0.58553,0.0,0.0,0.58553
+12,3,CE,1,wrote,The reporters that the beer that the merchant sold delighted wrote a cookbook. ,reporters,13.3923,0.9972,1.9675,1.6432,0.80273,0.80273,0.02507,0.00796
+13,3,RB,1,wrote,The merchant sold the beer that delighted the reporters who wrote a cookbook.,reporters,7.5869,0.9967,1.8304,1.6081,0.82044,0.82044,0.00877,0.01228
+14,3,CE,2,delighted,The reporters that the beer that the merchant sold delighted wrote a cookbook. ,beer,17.2387,1.771,2.0613,1.6166,0.12429,0.61505,0.12429,0.02184
+15,3,RB,2,delighted,"Yesterday evening, the merchant sold the beer that delighted the reporters who wrote a cookbook.",beer,14.7981,2.1239,1.961,1.5102,0.47677,0.0,0.47677,0.09047
+16,3,CE,3,sold,The reporters that the beer that the merchant sold delighted wrote a cookbook. ,merchant,5.6962,1.7151,2.105,1.6863,0.47503,0.00214,0.10778,0.47503
+17,3,RB,3,sold,"After the sun went down, the merchant sold the beer that delighted the reporters who wrote a cookbook.",merchant,10.4005,1.5212,1.764,1.385,0.58501,0.0,0.0,0.58501
+18,4,CE,1,involved,The game that the inmates that the judge sentenced played involved bats and balls. ,game,11.9833,1.551,2.1392,1.7482,0.58375,0.58375,0.10334,0.00365
+19,4,RB,1,involved,The judge sentenced the inmates who played the game that involved bats and balls.,game,8.2578,1.4173,1.9678,1.7059,0.75185,0.75185,0.06161,0.00881
+20,4,CE,2,played,The game that the inmates that the judge sentenced played involved bats and balls. ,inmates,9.3716,2.2194,2.0306,1.6285,0.36432,0.2335,0.36432,0.09424
+21,4,RB,2,played,"Yesterday evening, the judge sentenced the inmates who played the game that involved bats and balls.",inmates,10.7718,1.7327,1.766,1.3954,0.51895,0.0,0.51895,0.05229
+22,4,CE,3,sentenced,The game that the inmates that the judge sentenced played involved bats and balls. ,judge,7.6822,1.9284,2.083,1.689,0.50971,0.00746,0.10744,0.50971
+23,4,RB,3,sentenced,"After the sun went down, the judge sentenced the inmates who played the game that involved bats and balls.",judge,6.5998,1.0752,1.6713,1.3496,0.76741,0.0,0.0,0.76741
+24,5,CE,1,hit,The stone that the boy that the club members initiated threw hit the window.,stone,11.9144,1.9626,2.0013,1.5833,0.41492,0.41492,0.03115,0.01253
+25,5,RB,1,hit,The club members initiated the boy who threw the stone that hit the window.,stone,4.9124,2.5671,2.0695,1.7067,0.30532,0.30532,0.20017,0.02572
+26,5,CE,2,threw,The stone that the boy that the club members initiated threw hit the window.,boy,8.8229,2.6074,2.1471,1.7248,0.21942,0.07656,0.21942,0.31074
+27,5,RB,2,threw,"Yesterday evening, the club members initiated the boy who threw the stone that hit the window.",boy,8.3169,1.3055,1.8369,1.4841,0.74112,0.0,0.74112,0.06273
+28,5,CE,3,initiated,The stone that the boy that the club members initiated threw hit the window.,members,13.1566,2.1461,2.2683,1.6882,0.39357,0.00138,0.03853,0.39357
+29,5,RB,3,initiated,"After the sun went down, the club members initiated the boy who threw the stone that hit the window.",members,15.067,1.311,1.8257,1.4644,0.71186,0.0,0.0,0.71186
+30,6,CE,1,admired,The chef that the waiter that the visitor appreciated teased admired good musicians. ,chef,19.37,1.9238,2.0748,1.6591,0.57921,0.57921,0.10329,0.03346
+31,6,RB,1,admired,The visitor appreciated the waiter who teased the chef who admired good musicians.,chef,12.8031,2.2133,1.9241,1.759,0.42518,0.42518,0.06977,0.01078
+32,6,CE,2,teased,The chef that the waiter that the visitor appreciated teased admired good musicians. ,waiter,17.6738,2.4666,2.064,1.5651,0.22851,0.34876,0.22851,0.09156
+33,6,RB,2,teased,"Yesterday evening, the visitor appreciated the waiter who teased the chef who admired good musicians.",waiter,14.5346,2.0247,1.838,1.5602,0.49897,0.0,0.49897,0.08441
+34,6,CE,3,appreciated,The chef that the waiter that the visitor appreciated teased admired good musicians. ,visitor,16.0571,2.2802,2.0196,1.6041,0.41392,0.0315,0.13077,0.41392
+35,6,RB,3,appreciated,"After the sun went down, the visitor appreciated the waiter who teased the chef who admired good musicians.",visitor,15.7501,1.2418,1.6543,1.3699,0.70169,0.0,0.0,0.70169
+36,7,CE,1,introduced,The governor that the secretary that the senator called answered introduced the ambassador. ,governor,15.4727,2.599,1.9946,1.4972,0.14747,0.14747,0.07213,0.0704
+37,7,RB,1,introduced,The senator called the secretary who answered the governor who introduced the ambassador.,governor,9.2888,1.7349,1.7777,1.5932,0.62317,0.62317,0.05134,0.00839
+38,7,CE,2,answered,The governor that the secretary that the senator called answered introduced the ambassador. ,secretary,13.022,2.7115,1.9174,1.5154,0.14639,0.19426,0.14639,0.18151
+39,7,RB,2,answered,"Yesterday evening, the senator called the secretary who answered the governor who introduced the ambassador.",secretary,9.4111,2.1102,1.8726,1.4914,0.44668,0.0,0.44668,0.05783
+40,7,CE,3,called,The governor that the secretary that the senator called answered introduced the ambassador. ,senator,7.9101,1.9729,1.9741,1.6083,0.50518,0.01525,0.16764,0.50518
+41,7,RB,3,called,"After the sun went down, the senator called the secretary who answered the governor who introduced the ambassador.",senator,7.3751,0.6534,1.5765,1.372,0.85316,0.0,0.0,0.85316
+42,8,CE,1,stayed,The frog that the turtle that the spider chased followed stayed on the log. ,frog,10.7583,1.3286,1.9084,1.5303,0.60462,0.60462,0.01959,0.00212
+43,8,RB,1,stayed,The spider chased the turtle that followed the frog that stayed on the log.   ,frog,9.6267,1.7123,1.8643,1.6686,0.65365,0.65365,0.116,0.04411
+44,8,CE,2,followed,The frog that the turtle that the spider chased followed stayed on the log. ,turtle,8.4743,2.4566,2.0274,1.5788,0.18101,0.3614,0.18101,0.15951
+45,8,RB,2,followed,"Yesterday evening, the spider chased the turtle that followed the frog that stayed on the log.   ",turtle,8.3058,1.6176,1.8453,1.6605,0.66128,0.0,0.66128,0.16629
+46,8,CE,3,chased,The frog that the turtle that the spider chased followed stayed on the log. ,spider,10.5016,1.8428,2.0935,1.6746,0.56893,0.01829,0.16305,0.56893
+47,8,RB,3,chased,"After the sun went down, the spider chased the turtle that the followed frog that stayed on the log.   ",spider,10.5664,0.6264,1.6592,1.404,0.88466,0.0,0.0,0.88466
+48,9,CE,1,borrowed,The baker that the butcher that the candle-stick-maker paid congratulated borrowed 200 dollars. ,baker,18.0205,2.5448,1.9437,1.6519,0.27509,0.27509,0.03064,0.13403
+49,9,RB,1,borrowed,The candle-stick-maker paid the butcher who congratulated the baker who borrowed 200 dollars. ,baker,13.2059,2.2719,2.0593,1.8969,0.35624,0.35624,0.04707,0.02119
+50,9,CE,2,congratulated,The baker that the butcher that the candle-stick-maker paid congratulated borrowed 200 dollars. ,butcher,22.4593,2.6627,2.437,1.9175,0.12123,0.12911,0.12123,0.42417
+51,9,RB,2,congratulated,"Yesterday evening, the candle-stick-maker paid the butcher who congratulated the baker who borrowed 200 dollars. ",butcher,18.7748,2.5446,2.0899,1.773,0.33859,0.0,0.33859,0.13823
+52,9,CE,3,paid,The baker that the butcher that the candle-stick-maker paid congratulated borrowed 200 dollars. ,maker,9.4987,2.4547,2.5696,1.994,0.44465,0.00788,0.04036,0.44465
+53,9,RB,3,paid,"After the sun went down, the candle-stick-maker paid the butcher who congratulated the baker who borrowed 200 dollars. ",maker,12.2146,1.2101,2.2142,1.6197,0.66252,0.0,0.0,0.66252
+54,10,CE,1,told,The detective that the scientist that the lawyer confused questioned told the truth.,detective,6.3923,1.395,1.9767,1.6143,0.61473,0.61473,0.02618,0.01313
+55,10,RB,1,told,The lawyer confused the scientist who questioned the detective who told the truth. ,detective,6.324,1.7795,1.9208,1.7913,0.59428,0.59428,0.08649,0.01517
+56,10,CE,2,questioned,The detective that the scientist that the lawyer confused questioned told the truth.,scientist,16.6399,2.282,2.1163,1.7224,0.23016,0.10786,0.23016,0.45449
+57,10,RB,2,questioned,"Yesterday evening, the lawyer confused the scientist who questioned the detective who told the truth. ",scientist,9.9143,1.5766,1.8384,1.5693,0.64895,0.0,0.64895,0.09858
+58,10,CE,3,confused,The detective that the scientist that the lawyer confused questioned told the truth.,lawyer,16.5006,1.9151,2.1594,1.5579,0.53616,0.00662,0.09393,0.53616
+59,10,RB,3,confused,"After the sun went down, the lawyer confused the scientist who questioned the detective who told the truth. ",lawyer,15.1599,1.2726,1.73,1.3594,0.68735,0.0,0.0,0.68735
+60,11,CE,1,caught,The wagon that the auto that the truck carried pulled caught fire. ,wagon,10.5222,0.6686,1.9517,1.4602,0.88603,0.88603,0.01864,0.00297
+61,11,RB,1,caught,The truck carried the auto that pulled the wagon that caught fire.,wagon,8.8527,2.1224,1.8677,1.6334,0.3992,0.3992,0.27256,0.19274
+62,11,CE,2,pulled,The wagon that the auto that the truck carried pulled caught fire. ,auto,8.0256,2.0673,2.0874,1.6179,0.20114,0.23528,0.20114,0.44225
+63,11,RB,2,pulled,"Yesterday evening, the truck carried the auto that pulled the wagon that caught fire.",auto,7.2102,1.3349,1.8095,1.529,0.54609,0.0,0.54609,0.39552
+64,11,CE,3,carried,The wagon that the auto that the truck carried pulled caught fire. ,truck,8.3045,1.573,2.1149,1.6556,0.64472,0.00902,0.13967,0.64472
+65,11,RB,3,carried,"After the sun went down, the truck carried the auto that pulled the wagon that caught fire.",truck,9.7165,0.3289,1.6814,1.4301,0.94914,0.0,0.0,0.94914
+66,12,CE,1,lived,The bugs that the man that the rats feared avoided lived on the hill. ,bugs,13.1389,0.9921,1.937,1.5484,0.80135,0.80135,0.01793,0.00583
+67,12,RB,1,lived,The rats feared the man who avoided the bugs that lived on the hill.,bugs,7.7117,1.0937,1.91,1.6398,0.81654,0.81654,0.05005,0.02245
+68,12,CE,2,avoided,The bugs that the man that the rats feared avoided lived on the hill. ,man,13.1577,2.5553,2.1225,1.654,0.1293,0.267,0.1293,0.15647
+69,12,RB,2,avoided,"Yesterday evening, the rats feared the man who avoided the bugs that lived on the hill.",man,17.6069,1.7639,1.7924,1.509,0.53632,0.0,0.53632,0.06142
+70,12,CE,3,feared,The bugs that the man that the rats feared avoided lived on the hill. ,rats,12.255,2.2474,2.1297,1.648,0.337,0.02815,0.11287,0.337
+71,12,RB,3,feared,"After the sun went down, the rats feared the man who avoided the bugs that lived on the hill.",rats,14.8419,1.0583,1.6788,1.4306,0.77099,0.0,0.0,0.77099
+72,13,CE,1,approached,The dog that the cat that the bird fought feared approached the colt. ,dog,14.1181,1.3807,2.0211,1.6225,0.69858,0.69858,0.04136,0.0193
+73,13,RB,1,approached,The bird fought the cat that feared the dog that approached the colt. ,dog,11.0041,1.055,2.0406,1.7233,0.82413,0.82413,0.08029,0.0206
+74,13,CE,2,feared,The dog that the cat that the bird fought feared approached the colt. ,cat,14.4195,2.1929,1.9414,1.5752,0.11088,0.49173,0.11088,0.1031
+75,13,RB,2,feared,"Yesterday evening, the bird fought the cat that feared the dog that approached the colt. ",cat,14.2459,1.803,1.8096,1.5133,0.55507,0.0,0.55507,0.23268
+76,13,CE,3,fought,The dog that the cat that the bird fought feared approached the colt. ,bird,11.5222,2.0089,2.1347,1.5917,0.35785,0.00846,0.1036,0.35785
+77,13,RB,3,fought,"After the sun went down, the bird fought the cat that feared the dog that approached the colt. ",bird,12.9163,0.5508,1.7614,1.3638,0.91021,0.0,0.0,0.91021
+78,14,CE,1,teased,The clerk that the worker that the visitor liked thanked teased the boss. ,clerk,19.5916,1.3841,1.9319,1.5453,0.71201,0.71201,0.07238,0.01078
+79,14,RB,1,teased,The visitor liked the worker who thanked the clerk who teased the boss. ,clerk,13.493,2.4831,1.9543,1.7017,0.31837,0.31837,0.1055,0.02818
+80,14,CE,2,thanked,The clerk that the worker that the visitor liked thanked teased the boss. ,worker,14.6382,2.5558,2.1604,1.6588,0.23652,0.31021,0.23652,0.14981
+81,14,RB,2,thanked,"Yesterday evening, the visitor liked the worker who thanked the clerk who teased the boss. ",worker,11.772,2.1239,1.9572,1.6527,0.46668,0.0,0.46668,0.19523
+82,14,CE,3,liked,The clerk that the worker that the visitor liked thanked teased the boss. ,visitor,13.0212,1.977,2.0326,1.6054,0.4751,0.01715,0.15895,0.4751
+83,14,RB,3,liked,"After the sun went down, the visitor liked the worker who thanked the clerk who teased the boss. ",visitor,14.932,1.0307,1.687,1.3863,0.75017,0.0,0.0,0.75017
+84,15,CE,1,noticed,The children that the boy that the policeman saw discovered noticed something. ,children,16.8922,1.4201,2.0116,1.6403,0.72606,0.72606,0.08423,0.04558
+85,15,RB,1,noticed,The policeman saw the boy who discovered the children who noticed something. ,children,14.3506,2.1649,1.8834,1.8141,0.48955,0.48955,0.12317,0.04054
+86,15,CE,2,discovered,The children that the boy that the policeman saw discovered noticed something. ,boy,15.3303,2.0993,2.0439,1.6256,0.17263,0.49689,0.17263,0.10244
+87,15,RB,2,discovered,"Yesterday evening, the policeman saw the boy who discovered the children who noticed something. ",boy,13.6492,1.596,1.716,1.4808,0.61719,0.0,0.61719,0.08276
+88,15,CE,3,saw,The children that the boy that the policeman saw discovered noticed something. ,policeman,5.9637,2.0056,2.0353,1.6926,0.51041,0.01981,0.18004,0.51041
+89,15,RB,3,saw,"After the sun went down, the policeman saw the boy who discovered the children who noticed something. ",policeman,7.2536,0.7288,1.6586,1.4295,0.84067,0.0,0.0,0.84067
