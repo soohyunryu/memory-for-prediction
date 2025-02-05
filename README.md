@@ -32,7 +32,7 @@ To generate data related to psycholinguistic phenomena (e.g., center embedding v
 
 3. **Bayesian Models (Table 3-4 & Figure 10)**
    - Fit the models by running `natural-readings/regressions.R`.
-   - **Note**: You’ll need the raw data and frequency data (`freq-dict.json`) to run these models. Both the annotated data and fitted models can be shared upon request.
+   - **Note**: You’ll need the raw data and frequency data (`freq-dict.json`) to run these models. Raw data, frequency data, annotated data (results from geco_data_generation.py and ns_data_generation.py) and fitted models can be shared upon request.
 
 ---
 
