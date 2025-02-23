@@ -31,7 +31,9 @@ priors <- c(
 #Fitting the model for go-past-time
 GCdata <- read_csv("geco-annotated-data.csv")
 GCdata<- drop_na(GCdata)
-GCdata <- GCdata[which(GCdata$WORD_GO_PAST_TIME!=0 &GCdata$WORD_GO_PAST_TIME<3000),]
+GCdata <- GCdata[which(GCdata$WORD_GAZE_DURATION!=0 &GCdata$WORD_GAZE_DURATION<3000),]
+
+
 
 GCdata <- GCdata %>%  mutate(crnt_surprisal_z = scale(crnt_surprisal),
                              crnt_top_syn_entropy_30_z = scale(crnt_top_syn_entropies_30),
@@ -44,6 +46,8 @@ GCdata <- GCdata %>%  mutate(crnt_surprisal_z = scale(crnt_surprisal),
                              prev_not_top_syn_entropy_30_z = scale(prev_not_top_syn_entropies_30),
                              prev_wfreq_z = scale(prev_frequency),
                              prev_wlength_z = scale(prev_w_len))
+
+GCdata$WORD_GO_PAST_TIME <- as.numeric(GCdata$WORD_GO_PAST_TIME)
 
 GCmodel_gp <- brm( WORD_GO_PAST_TIME ~ position + crnt_wlength_z + prev_wlength_z+
                  crnt_surprisal_z*crnt_top_syn_entropy_30_z+ 
